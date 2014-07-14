@@ -8,5 +8,5 @@ chkconfig nginx on
 
 
 echo "done, reboot"
-sleep 5
-reboot
+#sleep 5
+#reboot
