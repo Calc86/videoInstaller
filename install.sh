@@ -1,10 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: calc
- * Date: 14.07.14
- * Time: 13:56
- */
+#!/bin/bash
 
 cd $1
 
