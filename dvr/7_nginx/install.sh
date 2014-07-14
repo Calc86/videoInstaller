@@ -2,4 +2,4 @@
 
 cp /etc/nginx/nginx.conf
 
-cp ./nginx.conf /etc/nginx.conf
+cp -i ./nginx.conf /etc/nginx.conf
