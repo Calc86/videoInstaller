@@ -1,15 +1,13 @@
 #!/bin/bash
 
-su - vlc
 
-cd ~
 
-git clone https://github.com/Calc86/dvr.git
+git clone https://github.com/Calc86/dvr.git /home/vlc/dvr
 
-ln -s ./dvr ./vlc
+ln -s /home/vlc/dvr /home/vlc/vlc
 
-exit
+chown -hR vlc:vlc /home/vlc/dvr
 
-cat ./rc.conf >> /etc/rc.d/init.d/rc.local
+cat ./$2/rc.conf >> /etc/rc.d/init.d/rc.local
 
 chmod u+rx /etc/rc.d/init.d/rc.local

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat ./fstab.conf >> /etc/fstab
+cat ./$2/fstab.conf >> /etc/fstab
 
-umoutn -a
+umount -a
 
 mount -a

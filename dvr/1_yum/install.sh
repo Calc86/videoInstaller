@@ -10,4 +10,4 @@ yum install php php-fpm php-gd php-apc -y
 
 yum install vlc -y
 
-yum install nfs-utils
+yum install nfs-utils -y

@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cp ./direct.xml /etc/firewalld/
+cp ./$2/direct.xml /etc/firewalld/
 
-cd ..

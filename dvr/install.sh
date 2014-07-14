@@ -1,9 +1,8 @@
 #!/bin/bash
 
 
-for D in `find . -type d`
+for D in `find $1 -type d | sort | grep -v "^dvr$"`
 do
-    cd D
-    install.sh
-    cd ..
+    echo $D
+    bash ./$D/install.sh $1 $D
 done
